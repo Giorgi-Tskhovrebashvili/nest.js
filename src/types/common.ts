@@ -7,4 +7,15 @@ export interface newExpensesType {
 export interface expenseType {
     title: string;
     price: number;
-  }
+}
+  
+export interface newPostsType {
+    id: number;
+    name: string;
+    post: string;
+}
+
+export interface postType {
+    name: string;
+    post: string;
+}
